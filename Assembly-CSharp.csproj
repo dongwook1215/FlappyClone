@@ -36,9 +36,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\BirdJump.cs" />
-     <Compile Include="Assets\Move.cs" />
      <Compile Include="Assets\MakePipe.cs" />
+     <Compile Include="Assets\Move.cs" />
+     <Compile Include="Assets\BirdJump.cs" />
+     <Compile Include="Assets\Score.cs" />
+     <Compile Include="Assets\ScoreUp.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.18f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
