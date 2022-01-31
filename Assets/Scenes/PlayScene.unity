@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 240054547}
   - component: {fileID: 240054549}
   - component: {fileID: 240054548}
+  - component: {fileID: 240054550}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -202,6 +203,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 240054546}
   m_CullTransparentMesh: 1
+--- !u!114 &240054550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240054546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c63fd2be7e0da4df797575510b8f74e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &282793226
 GameObject:
   m_ObjectHideFlags: 0
@@ -916,6 +929,26 @@ PrefabInstance:
     - target: {fileID: 2362912107137794378, guid: d5262d099966148eba92ed8ae53bd23a, type: 3}
       propertyPath: m_Name
       value: Pipe
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032363748280054992, guid: d5262d099966148eba92ed8ae53bd23a, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0963198
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032363748280054992, guid: d5262d099966148eba92ed8ae53bd23a, type: 3}
+      propertyPath: m_Size.y
+      value: 2.864478
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032363748280054992, guid: d5262d099966148eba92ed8ae53bd23a, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.11815995
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032363748280054992, guid: d5262d099966148eba92ed8ae53bd23a, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.027239084
+      objectReference: {fileID: 0}
+    - target: {fileID: 6032363748280054992, guid: d5262d099966148eba92ed8ae53bd23a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5262d099966148eba92ed8ae53bd23a, type: 3}
